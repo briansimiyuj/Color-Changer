@@ -20,3 +20,9 @@ body{
     height: 180px;
     background-color: blue;
 }  
+
+.medium{
+    width: 210px;
+    height: 210px;
+    background-color: green;
+}
