@@ -15,31 +15,26 @@ body{
 }
 
 .tiny{
-    width: 150px;
     height: 150px;
     background-color: red;
 }
 
 .small{
-    width: 180px;
     height: 180px;
     background-color: blue;
 }  
 
 .medium{
-    width: 210px;
     height: 210px;
     background-color: green;
 }
 
 .big{
-    width: 240px;
     height: 240px;
     background-color: purple;
 }
 
 .large{
-    width: 270px;
     height: 270px;
     background-color: darkorange;
 }
