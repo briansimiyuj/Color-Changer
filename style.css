@@ -12,6 +12,7 @@ body{
 .container{
     display: grid;  
     grid-template-columns: repeat(5, 1fr);    
+    grid-auto-rows: 200px;
 }
 
 .tiny{
