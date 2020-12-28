@@ -26,3 +26,9 @@ body{
     height: 210px;
     background-color: green;
 }
+
+.big{
+    width: 240px;
+    height: 240px;
+    background-color: purple;
+}
