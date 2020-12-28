@@ -32,3 +32,9 @@ body{
     height: 240px;
     background-color: purple;
 }
+
+.large{
+    width: 270px;
+    height: 270px;
+    background-color: darkorange;
+}
