@@ -9,6 +9,11 @@ body{
     position: relative;
 }
 
+.container{
+    display: grid;  
+    grid-template-columns: repeat(5, 1fr);    
+}
+
 .tiny{
     width: 150px;
     height: 150px;
