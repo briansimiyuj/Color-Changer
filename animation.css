@@ -1,0 +1,23 @@
+@keyframes smallBoxes{
+
+    0%{
+        background-color: Blue ;
+    }
+
+    25%{
+        background-color: green;
+    }
+
+    50%{
+        background-color: red;
+    }
+
+    75%{
+        background-color: yellow;
+    }
+
+    100%{
+        background-color: blue;
+    }
+
+}

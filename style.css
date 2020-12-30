@@ -23,6 +23,7 @@ body{
 .small{
     height: 180px;
     background-color: blue;
+    animation: smallBoxes 7s ease 2s infinite forwards ;
 }  
 
 .medium{
