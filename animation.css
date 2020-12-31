@@ -71,3 +71,28 @@
     }
 
 }
+
+
+@keyframes bigBoxes{
+
+    0%{
+        background-color: purple;
+    }
+
+    25%{
+        background-color: red;
+    }
+
+    50%{
+        background-color: green;
+    }
+
+    75%{
+        background-color: orange;
+    }
+
+    100%{
+        background-color: purple; 
+    }
+
+}

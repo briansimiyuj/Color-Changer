@@ -36,6 +36,7 @@ body{
 .big{
     height: 240px;
     background-color: purple;
+    animation: bigBoxes 7s ease 2s infinite forwards ;
 }
 
 .large{
