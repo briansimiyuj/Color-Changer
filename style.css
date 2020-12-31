@@ -30,6 +30,7 @@ body{
 .medium{
     height: 210px;
     background-color: green;
+    animation: mediumBoxes 7s ease 2s infinite forwards ;
 }
 
 .big{

@@ -46,3 +46,28 @@
     }
 
 }
+
+
+@keyframes mediumBoxes{
+
+    0%{
+        background-color: green ;
+    }
+
+    25%{
+        background-color: purlpe;
+    }
+
+    50%{
+        background-color: blue;
+    }
+
+    75%{
+        background-color: red;
+    }
+
+    100%{
+        background-color: green;
+    }
+
+}
