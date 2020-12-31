@@ -42,4 +42,5 @@ body{
 .large{
     height: 270px;
     background-color: darkorange;
+    animation: largeBoxes 7s ease 2s infinite forwards ;
 }
