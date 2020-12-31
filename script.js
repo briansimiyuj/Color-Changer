@@ -10,8 +10,14 @@ const increaseSpeed = () =>{
 
        })
 
-       console.log('working')
-
+       
 }
 
-increaseSpeed()
+
+
+
+setTimeout(() => {
+    
+    increaseSpeed()
+
+}, 9000)
