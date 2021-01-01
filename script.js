@@ -1,12 +1,31 @@
 const smallBoxes = document.querySelectorAll(".small")
 
+const largeBoxes = document.querySelectorAll(".large")
+
+const tinyBoxes = document.querySelectorAll(".tiny")
+
+const mediumBoxes = document.querySelectorAll(".medium")
+
+const bigBoxes = document.querySelectorAll(".big")
+
+
+
+
+const boxes = [smallBoxes, largeBoxes, tinyBoxes, bigBoxes, mediumBoxes]
+
+
+
 
 
 const increaseSpeed = () =>{
 
-       smallBoxes.forEach(box => {
+       boxes.forEach(boxess => {
            
-        box.style.animationDuration = "3s"
+        boxess.forEach(box => {
+            
+            box.style.animationDuration = "3s"
+
+        })
 
        })
 
@@ -28,15 +47,16 @@ setTimeout(() => {
 
 const decreaseSpeed = () =>{
 
-    smallBoxes.forEach(box => {
+    boxes.forEach(boxess => {
            
-        box.style.animation = "none"
+        boxess.forEach(box => {
+            
+            box.style.animation = "none"
+
+        })
 
        })
-
-
-    console.log('working')
-
+ 
 }
 
 
