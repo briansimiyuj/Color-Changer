@@ -45,7 +45,7 @@ setTimeout(() => {
 
 
 
-const decreaseSpeed = () =>{
+const removeAnimation = () =>{
 
     boxes.forEach(boxess => {
            
@@ -63,6 +63,34 @@ const decreaseSpeed = () =>{
 
 setTimeout(() => {
     
-    decreaseSpeed()
+    removeAnimation()
 
 }, 18000)
+
+
+
+
+
+const initialAnimation = () =>{
+
+    boxes.forEach(boxess => {
+
+        boxess.forEach(box => {
+            
+            box.style.animation = "initial"
+
+        })
+        
+    })
+
+       console.log('working')
+
+}
+
+
+
+setTimeout(() => {
+    
+    initialAnimation()
+
+}, 28000);
