@@ -73,17 +73,7 @@ setTimeout(() => {
 
 const initialAnimation = () =>{
 
-    boxes.forEach(boxess => {
-
-        boxess.forEach(box => {
-            
-            box.style.animation = "initial"
-
-        })
-        
-    })
-
-       console.log('working')
+   window.location.reload()
 
 }
 
@@ -93,4 +83,4 @@ setTimeout(() => {
     
     initialAnimation()
 
-}, 28000);
+}, 25000)
